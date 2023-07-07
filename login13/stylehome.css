@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+} 
+
+body{
+	background-image: url("https://img.freepik.com/premium-vector/travel-concept-vector-illustration-paper-cut-style-design-vacation-background_545205-313.jpg?w=2000");
+	background-repeat: no-repeat;
+	background-size: cover;
+	 font-size: 17px;
+}
+
+header{
+	
+	height: 100hv;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+   text-decoration: none;
+   color: #fff;
+   padding: 5px 20px;
+   border: 2px solid transparent;
+   transition: 0.6s ease;
+
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+
+
+}
+ul li.action a{background-color: #fff;
+	color: #000;
+}
+ .main{
+ 	max-width: 1200px;
+ 	margin: auto;
+
+ }
+
+ .logo img{
+ 	 float: left;
+ 	 width: 50px;
+ 	 height: auto;
+ }
+ .container {
+  position: bottom;
+  max-width: 500px;
+  margin: 0 auto;
+}
+{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+ 
+}
+.container img {vertical-align:bottom;}
+
+.container .content {
+ 
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color:#000 /*#f1f1f1*/;
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
